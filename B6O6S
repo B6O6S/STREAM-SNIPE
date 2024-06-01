@@ -48,14 +48,14 @@ if not game.CoreGui:FindFirstChild("StreamSniper") then
 	TBox1.TextScaled = true
 	TBox2.TextScaled = true
 	TBox3.TextScaled = true
-	TBox1.PlaceholderText = "الماب ID"
-	TBox2.PlaceholderText = "الاسم"
+	TBox1.PlaceholderText = "(ID الماب)"
+	TBox2.PlaceholderText = "(الاسم اللاعب)"
 	TBox3.PlaceholderText = "B6O6S👑"
 
 	local TButton = Instance.new("TextButton", screenGui)
 	TButton.Size = UDim2.new(0.2, 0, 0.1, 0)
 	TButton.Position = UDim2.new(0.8, 0, 0.4, 0)
-	TButton.Text = "Snipe"
+	TButton.Text = "اقنص"
 	TButton.TextScaled = true
 	TButton.TextColor3 = Color3.new(1, 1, 200)
 	TButton.BackgroundColor3 = Color3.new(0, 0, 0)
